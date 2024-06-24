@@ -1,0 +1,55 @@
+.btn-secondary {
+    @apply bg-pure px-4 py-2 border-primary border rounded-md text-primary font-semibold cursor-pointer transition-all disabled:cursor-not-allowed;
+}
+.btn-secondary:hover {
+    @apply bg-primary text-pure;
+}
+
+.btn-primary {
+    @apply bg-primary  px-4 py-2 border-primary border rounded-md text-pure font-semibold cursor-pointer transition-all disabled:cursor-not-allowed;
+}
+.btn-primary:hover {
+    @apply bg-primaryHover;
+}
+.navbar li {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.navbar li:hover {
+    color: var(--secondary);
+}
+
+.footer-links li {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.footer-links li:hover {
+    color: lightgray;
+}
+
+.sidemenu-item {
+    @apply px-2 py-1 text-lg cursor-pointer hover:text-primary transition-all;
+}
+.active {
+    background-color: #fed7aa;
+    color: var(--primary);
+}
+.line {
+    border-left: 4px solid var(--primary);
+}
+
+.topbar-second {
+    -webkit-clip-path: polygon(0 0, 0, 100%, 100% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 700%);
+}
+.loading-center {
+    @apply flex items-center justify-center;
+}
+.invest-primary {
+    -webkit-clip-path: polygon(0 0, 0, 100%, 100% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 0% 900%);
+}
+/* .invest-pure {
+    -webkit-clip-path: polygon(0 0, 0, 100%, 100% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 0% 900%);
+} */
